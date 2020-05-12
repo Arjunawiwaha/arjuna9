@@ -55,7 +55,7 @@ logo = """\033[1;93m█████████
 \033[1;93m█████████      \033[1;92m«----------✧----------»
 \033[1;93m ██ ██
 \033[1;93m╔════════════════════════════════════════════╗
-\033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mArjuna•|Mr.ARJUNAWIWAHA\033[1;93m          ║
+\033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mArjuna•|Mr.ARJUNA-WIWAHA\033[1;93m          ║
 \033[1;93m║\033[1;96m* \033[1;93mGitHub  \033[1;93m : \033[1;93m\033[4mhttps://Github.com/Arjunawiwaha\033[0m \033[1;93m║
 \033[1;93m║\033[1;96m* \033[1;93mWhatsApp \033[1;93m: \033[1;93m0812-8044-0535\033[1;93m                 ║
 \033[1;93m╚════════════════════════════════════════════╝"""
@@ -79,26 +79,8 @@ os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;96m [¤] \x1b[1;93mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤] \x1b[1;93mWHATSAPP : 081280440535\x1b[1;96m  
 \033[1;96m [¤] \x1b[1;93mSELAMAT DATAMG\x1b[1;96m      [¤] \x1b[1;93mFACEBOOK : tools termux\x1b[1;96m  
-\033[1;96m [¤] \x1b[1;93mTOOLS MR.ARJUNA\x1b[1;96m  [¤] \x1b[1;93mYOUTUBE  : mr arjuna\x1b[1;96m"""
+\033[1;96m [¤] \x1b[1;93mTOOLS MR.ARJUNA-WIWAHA\x1b[1;96m  [¤] \x1b[1;93mYOUTUBE  : mr arjuna\x1b[1;96m"""
 print " \x1b[1;93m============================================================="
-
-CorrectUsername = "ARJUNA"
-CorrectPassword = "WIWAHA"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;93mUSERNAME TOOLS INI \x1b[1;96m>>>> ")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPASSWORD TOOLS INI \x1b[1;96m>>>> ")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username
-            loop = 'false'
-        else:
-            print "yang bener dong"
-            os.system('xdg-open https://wa.me/6281280440535')
-    else:
-        print "salah sayang!"
-        os.system('xdg-open https://wa.me/6281280440535')
 
 def login():
 	os.system('clear')
